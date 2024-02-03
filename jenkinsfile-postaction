@@ -27,7 +27,7 @@ pipeline {
             }
             post {
                 success {
-                    echo "This block runs when the stage succeeded."
+                    echo "This block runs when the stages succeeded."
                 }
             }
         }
