@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Built-In Node' }
+    agent { label 'ec2-slave' }
     stages {
         stage("Build") {
             steps {
